@@ -4,21 +4,21 @@ Design system comparison tool
 
 ## Set up
 
-- # Create virtual environment
+- Create virtual environment
 
 ```bash
 python -m venv .venv
 ```
 
-- # Activate it (Mac/Linux)
+- Activate it (Mac/Linux)
 
 ```bash
 source .venv/bin/activate
 ```
 
-- # Or Windows
+- Or Windows
 
 .venv\Scripts\activate
 
-# Install your dependencies
+- Install your dependencies
 pip install .

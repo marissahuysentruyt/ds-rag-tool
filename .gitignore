@@ -5,6 +5,7 @@ venv/
 ENV/
 build/
 *.egg-info/
+.idea
 
 # Environment variables
 .env
