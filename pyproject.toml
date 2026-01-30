@@ -6,10 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "ds_compare"
 version = "0.1.0"
 authors = [
-    {
-        name = "Marissa Huysentruyt", 
-        email = "marissahuysentruyt@users.noreply.github.com"
-    }
+    { name = "Marissa Huysentruyt", email = "marissahuysentruyt@users.noreply.github.com" }
 ]
 description = "Design system comparison tool"
 requires-python = ">=3.12"
