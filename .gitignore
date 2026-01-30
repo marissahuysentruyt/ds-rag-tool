@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+env/
+venv/
+ENV/
+build/
+*.egg-info/
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+
+# Docker
+.dockerignore
+
+# macOS
+.DS_Store
