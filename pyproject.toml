@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77.0.3", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ds_compare"
+version = "0.1.0"
+authors = [
+    {
+        name = "Marissa Huysentruyt", 
+        email = "marissahuysentruyt@users.noreply.github.com"
+    }
+]
+description = "Design system comparison tool"
+requires-python = ">=3.12"
+dependencies = [
+    "pypdf",  # PDF support
+    "python-docx",  # Word document support
+    "markdown",  # Markdown parsing
+    "beautifulsoup4",  # HTML parsing
+    "lxml",  # XML/HTML processing
+    "pytest",  # Testing
+    "black",  # Code formatting
+    "ruff",  # Linting
+]
