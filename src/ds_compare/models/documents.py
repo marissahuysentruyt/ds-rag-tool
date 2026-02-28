@@ -58,6 +58,6 @@ class DSInfo:
 
 @dataclass
 class Component: 
-     name: str
-     aliases: list[str]
-     category: Optional[str] = None
+    name: str
+    aliases: list[str]
+    category: Optional[str] = None
