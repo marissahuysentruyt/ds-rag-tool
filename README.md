@@ -21,4 +21,27 @@ source .venv/bin/activate
 .venv\Scripts\activate
 
 - Install your dependencies
-pip install .
+
+```bash
+pip install -e .
+```
+
+## Running Tests
+
+Run the test suite with pytest:
+
+```bash
+pytest
+```
+
+Run tests with verbose output:
+
+```bash
+pytest -v
+```
+
+Run a specific test file:
+
+```bash
+pytest tests/test_local_loader.py
+```
