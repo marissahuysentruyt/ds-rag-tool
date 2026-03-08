@@ -1,0 +1,1 @@
+from ds_compare.models.documents import Document
